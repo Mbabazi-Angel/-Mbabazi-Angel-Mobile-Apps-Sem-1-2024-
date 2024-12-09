@@ -118,7 +118,7 @@ class DetailsScreen extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.green,
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 32,
+                      horizontal: 80,
                       vertical: 16,
                     ),
                   ),
