@@ -35,7 +35,7 @@ class DetailsScreen extends StatelessWidget {
             Center(
               child: Image.network(
                 'https://morataara.com/cdn/shop/products/Bright_Blue_Bucket_Planter_With_Legs_9_1080x.jpg?v=1666343220',
-                height: 550,
+                height: 500,
               ),
             ),
             const SizedBox(height: 16),
@@ -52,7 +52,7 @@ class DetailsScreen extends StatelessWidget {
                     Icon(Icons.star, color: Colors.green, size: 20),
                     SizedBox(width: 4),
                     Text(
-                      "4.4 (268 Reviews)",
+                      "4.8 (268 Reviews)",
                       style: TextStyle(fontSize: 14, color: Colors.grey),
                     ),
                   ],
@@ -64,8 +64,8 @@ class DetailsScreen extends StatelessWidget {
             RichText(
               text: const TextSpan(
                 text: "Ageratum is a genus of 40 to 60 tropical and warm "
-                    "temperate flowering annuals and perennials from"
-                    "the family Asteraceae, tribe Eupatorieae. Most"
+                    "temperate flowering annuals and perennials from\n "
+                    "the family Asteraceae, tribe Eupatorieae. Most \n"
                     "species are native to Central America...",
                 style: TextStyle(fontSize: 14, color: Colors.black),
                 children: [
@@ -74,7 +74,6 @@ class DetailsScreen extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 14,
                       color: Colors.green,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],
